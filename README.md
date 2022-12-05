@@ -22,7 +22,26 @@ An online javascript demo for t-FDP can be found [here](https://t-fdp.github.io/
 - **_run_tfdp.py_** : code for generating t-FDP layout results.
 
 
+## Environments
+The code is tested under ubuntu 20.04.
+#### Requires: Anaconda3, python3.8, gcc
+
+#### cmd for conda install:
+```
+conda install -c conda-forge cupy cudatoolkit=10.2 jupyter notebook 
+pip install scikit-learn pyfftw numba_kdtree pytorch torchvision pandas dask[dataframe]
+pip install numpy==1.20.3 numba==0.54.1
+```
+and then you can use the [jupyter notebook](https://docs.jupyter.org/en/latest/running.html) to open and run the analysis code.
+
+#### setup for t-FDP
+> please refer to source_code/README.md
+
+#### run for t-FDP
+> setup the environments and then run `python run_tfdp.py`.
+
+---
 ## Licensing
 The source code is licensed under LGPL v2.1. License is available [here](https://github.com/Ideas-Laboratory/t-fdp/blob/main/LICENSE).
 
-If you have problems, please submit an issue.
+If you have any problem, please submit an issue or [email](zhongfahai@gmail.com) us.
