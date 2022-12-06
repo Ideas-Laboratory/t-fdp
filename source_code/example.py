@@ -2,7 +2,7 @@ from tfdp import tFDP
 import numpy as np
 print("Initialize the numba. It may take a little time.")
 
-approx_methods = ["BH", "Exact"]
+approx_methods = ["ibFFT_GPU","ibFFT_CPU","RVS","BH", "Exact"]
 example_graphs = ["dwt_72", "USPowerGrid", "fidapex11"]
 repetitions = 5
 for method in approx_methods:
