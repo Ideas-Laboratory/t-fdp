@@ -1,4 +1,4 @@
-Here implements a python solver, which followed `d3-force` simulation framework, for simulating forces in [t-FDP](#) model. 
+Here implements a python solver, which followed d3-force simulation framework, for simulating forces in [t-FDP](#) model. 
 # Setup
 
 The code is tested under ubuntu 20.04.
