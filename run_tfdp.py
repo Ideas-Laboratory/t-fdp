@@ -18,14 +18,16 @@ all_graphs = ['dwt_72', 'lesmis', 'can_96', 'rajat11', 'jazz', 'visbrazil',
               'sierpinski3d', 'lp_ship04l', 'data', '3elt', 'USPowerGrid',
               'add32', 'ca-GrQc', 'commanche', 'EVA', 'bcsstk33',
               'whitaker3', 'crack', 'fe_4elt2', 'fidapex11', 'bcsstk31', 'bcsstk32', 'finan512', 'luxembourg', 'fe_ocean',
-              'com-dblp.ungraph',
-              'com-amazon.ungraph',
-              'roadNet-PA',
-              'com-youtube.ungraph',
-              'roadNet-TX',
-              'roadNet-CA',
-              'com-orkut.ungraph',
-              'com-lj.ungraph']
+              # 'com-dblp.ungraph',
+              # 'com-amazon.ungraph',
+              # 'roadNet-PA',
+              # 'com-youtube.ungraph',
+              # 'roadNet-TX',
+              # 'roadNet-CA',
+              # 'com-orkut.ungraph',
+              # 'com-lj.ungraph'
+              # Uncomment these lines after downloading and and preprocessing the oversized graphs from SNAP.
+             ]
 
 repetitions = 5
 for method in approx_methods:
