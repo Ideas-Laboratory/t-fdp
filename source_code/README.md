@@ -22,5 +22,6 @@ python setup.py install
 #### Run the example:
 
 ```
+mkdir layouts
 python example.py
 ```
