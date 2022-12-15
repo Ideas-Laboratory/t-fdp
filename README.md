@@ -24,7 +24,8 @@ An online javascript demo for t-FDP can be found [here](https://t-fdp.github.io/
 
 ## Environments
 The code is tested under ubuntu 20.04.
-#### Requires: Anaconda3, python3.8, gcc
+#### Software requirements: Anaconda3, python3.8, gcc
+#### Hardware requirements: Nvidia GPU (Mem >= 8GB, for ibFFT_GPU), CPU Mem >= 8GB. 
 
 #### cmd for conda install:
 ```
